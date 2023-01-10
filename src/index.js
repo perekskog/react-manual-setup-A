@@ -1,6 +1,6 @@
-import hydrateRoot from "react-dom/client";
 
 import App from "./components/app";
+import { render } from "react-dom";
 
 const container = document.getElementById("app");
-hydrateRoot(container, <App />);
+render(<App />, container);
